@@ -1,0 +1,859 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family:mangal;
+	box-sizing: border-box;
+	/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Kalam', cursive;*/
+/*font-family: 'Qwitcher Grypen', cursive;
+*/
+
+}
+
+.center
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.heading
+{
+	padding: 50px;
+	text-transform: capitalize;
+	font-weight: bold;
+
+}
+.heading a
+{
+	color: black;
+	text-decoration: none;
+
+}
+
+
+
+/*******************************header*********************************/
+
+
+
+.banner1
+{
+	width: 100%;
+    height: 750px;
+	background: url(../sylvie/banner-1.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  center; 
+	background-attachment: fixed;
+	color: black;
+	font-size: 50px;
+}
+
+.navbar-inner
+{
+	width: 100%;
+	height: 180px;
+	background-color: transparent;
+}
+
+.topheader
+{
+	width: 100%;
+	height: 90px;
+	background-color: transparent;
+}
+
+.icons-left 
+{
+	font-size: 25px;
+	/*position: absolute;
+	left: 20px;
+	top: 10px;*/
+	color: white;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+#search
+{
+	display: none;
+}
+
+
+.icons-right
+{
+	font-size: 25px;
+	/*position: absolute;
+	right:  20px;
+	top: 10px;*/
+	color: white;
+	text-align: right;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+.logo-container
+{
+	
+	text-align: center;
+	/*border: 1px solid black;*/
+	float: left;
+
+}
+
+.logo-container a
+{
+	text-decoration: none;
+	color: white;
+
+}
+/*.navbar-nav
+{
+	position: sticky;
+}*/
+
+.primary-menu
+{
+	width: 100%;
+	height: 0px;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+	position: sticky;
+}
+/*
+.primary-menu .active
+{
+	background-color: white;
+	color: black;
+}*/
+
+.primary-menu ul
+{
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+}
+
+.primary-menu ul li
+{
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.primary-menu a:hover
+{
+	text-decoration: underline;
+
+}
+
+.navbar-toggler
+{
+	float: left;
+	display: none;
+	color: white;
+	font-size: 30px;
+	padding-top: 5px;
+}
+
+.offcanvas-body ul li
+{
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 20px;
+
+
+}
+
+.offcanvas-body ul li a
+{
+	text-decoration: none;
+	color: grey;
+}
+
+.btn-close
+{
+	font-size: 15px;
+}
+
+.text
+{
+	float: right;
+	/*width: 100%;*/
+	color: white;
+	/*font-size: 20px;*/
+	align-content: center;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.text2
+{
+	
+	width: 100%;
+	color: #a9a9a9;
+	background-color: #dcdcdc;
+	font-size: 40px;
+	align-content: center;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.butn
+{
+	font-size: 25px;
+	text-transform: capitalize;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+}
+
+.butn a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.butn a:hover
+{
+	color: white;
+	font-size: 30px;
+	border: none;
+	border-radius: none;
+	
+
+}
+/******************************header end**********************************/
+.vid
+{
+	 width: 100px;
+	 height: auto;
+	/* background: url(../sylvie/video-1.mp4);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  center; 
+	background-attachment: fixed;*/
+	
+}
+
+
+/**********************************carousal**************************************/
+
+
+/*.carousel-control-next-icon
+{
+	color: black;
+}
+*/
+
+
+.bttn
+{
+	font-size: 30px;
+	text-transform: capitalize;
+	background-color: grey;
+	border: 1px solid white;
+	color: white;
+	padding: 10px;
+
+}
+
+.bttn a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.bttn a:hover
+{
+	color: black;
+
+}
+
+
+/***********************************banner-2*********************************/
+
+.banner2
+{
+	width: 100%;
+    height: 750px;
+	background: url(../sylvie/Banner-2.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  center; 
+	background-attachment: fixed;
+	/*color: black;*/
+	font-size: 50px;
+}
+
+
+.text3
+{
+	float: left;
+	/*width: 100%;*/
+	color: white;
+	/*font-size: 20px;*/
+	align-content: center;
+	text-align: center;
+	padding-top: 300px;
+}
+
+/********************************banner3***************************/
+
+.text4
+{
+	float: left;
+	/*width: 100%;*/
+	color: grey;
+	/*font-size: 20px;*/
+	align-content: center;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+/*******************************banner4****************************/
+
+
+.text5
+{
+	background-color: #f5f5f5;
+	margin-left: 0px;
+	color: grey;
+	padding-top: 100px;
+	text-align: center;
+	float: left;
+}
+
+.bckgrnd
+{
+	background-color: #f5f5f5;
+}
+
+
+
+/*@media only screen and (max-width: 1000px) 
+{
+	.navbar-toggler
+{
+	float: left;
+	display: block;
+}
+
+.primary-menu ul li
+{
+	display: none;
+}
+
+}*/
+
+/****************************************SVC***************************************/
+
+.card
+{
+	border: 0px;
+	border-radius: 0px;
+}
+
+.card img
+{
+	border: 1px solid black;
+	border-radius: 1px;
+	
+}
+
+.card img:hover
+{
+	box-shadow: 5px 5px 30px 10px #dcdcdc;
+}
+
+.card a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.card a:hover h5
+{
+	font-size: 25px;
+	text-shadow: 5px 5px 3px grey;
+
+}
+
+/******************************************top brand********************************************/
+
+
+.btnn
+{
+	font-size: 25px;
+	text-transform: capitalize;
+	background-color: #987456;
+	border: 1px solid white;
+	color: white;
+	padding: 15px;
+	margin-top: 50px;
+}
+
+.btnn a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.btnn a:hover
+{
+	color: #ffffff;
+	
+	font-size: 30px;
+}
+
+
+
+.top-brand h1
+{
+color: #987456;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+
+/*****************************************insired****************************************/
+
+.inspire{
+
+	text-align: center;
+
+}
+
+.inspire img
+{
+	width: 250px;
+	height: 180px;
+	
+	margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+/*****************************************footer*****************************************/
+
+.main-footer
+{
+	background-color: #dcdcdc;
+	/*text-align: center;*/
+	width: 100%;
+	
+}
+
+.col-left input
+{
+	width: 80%;
+	padding: 0px;
+	margin: 20px;
+	font-size: 18px;
+	background-color: white;
+}
+
+.col-left select
+{
+	width: 80%;
+	padding: 0px;
+	margin: 20px;
+	font-size: 18px;
+	background-color: white;
+}
+.col-left
+{
+	float: left;
+	font-size: 22px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.col-left ul li
+{
+	list-style: none;
+	
+}
+
+.col-left a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.col-left a:hover
+{
+	text-decoration: underline;
+	color: grey;
+}
+
+.col-left h2
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+.icons
+{
+	font-size: 40px;
+	color: black;
+	float: left;
+	align-content: center;
+	text-align: center;
+	padding: 14px;
+}
+
+.social
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+.social a:hover i
+{
+	font-size: 50px;
+}
+
+
+/************************************products*************************************88*/
+
+
+
+.products
+{
+	/*border: 1px solid red;*/
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom:  30px;
+}
+
+.products img
+{
+	width: 250px;
+	height: 250px;
+	/*border: 1px solid black;*/
+	box-shadow: 1px 2px 2px 1px grey;
+}
+
+.products a
+{
+	text-decoration: none;
+	color: #555555;
+}
+
+
+
+.offcanvas
+  {
+    background-color: #f5f5f5;
+    border: 2px solid black; 
+    box-sizing: border-box;
+  }
+  .offcanvas-header
+  {
+    display: flex;
+    justify-content:  center;
+    padding: 50px;
+    text-transform: uppercase;
+   
+  }
+
+  .btn-close
+  {
+     position: relative;
+    top: -40px;
+
+  }
+
+.offcanvas-body
+{
+  text-align: start;
+  padding: 20px;
+
+}
+
+.offcanvas-body img
+{
+  box-shadow: 1px 2px 10px 2px grey;
+  width: 250px;
+  height: 250px;
+}
+
+.offcanvas-body h1,h2,h4
+{
+  text-transform: capitalize;
+}
+
+.offcanvas-body select,input
+{
+  width: 220px;
+  padding: 10px;
+  margin: 8px;
+  text-align:center;
+  background-color: #dcdcdc;
+}
+
+/*for jewellery*/
+.guide a
+	{
+		font-size: 20px;
+		color: black;
+		text-decoration: none;
+		text-transform: capitalize;
+
+	}
+
+
+	.guide a:hover
+	{
+		font-size: 23px;
+		color: grey;
+		text-decoration: underline;
+	}
+
+	.guide div
+	{
+		border: 1px solid black;
+	}
+
+	.heading a
+	{
+		color: black;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	.heading a:hover
+	{
+		color: grey ;
+		text-decoration: underline;
+		font-size: 30px;
+	}
+
+
+
+/*****************************************retailer-form**************************************/
+
+.form1
+{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.form1 input
+{
+	background-color: grey;
+	width: 80%;
+	padding: 13px;
+
+}
+
+
+.form1 select
+{
+	background-color: grey;
+	width: 80%;
+	padding: 13px;
+
+}
+
+/********************************************wishlist*******************************************/
+
+
+.form2
+{
+	text-align: left;	
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.form2 input 
+{
+	background-color: #dcdcdc;
+	width: 80%;
+	padding: 10px; 
+	margin:  15px 0px;
+}
+
+.form2 textarea
+{
+	background-color: #dcdcdc;
+	width: 80%;
+	padding: 10px; 
+	margin:  15px 0px;
+}
+
+
+
+.form2 a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.form2 a:hover
+{
+	color: grey;
+	font-size: 20px;
+
+}
+
+.style input
+{
+	background-color: grey;
+}
+
+.style a:hover input
+{
+	background-color: black;
+	color: white;
+}
+
+/***************************************************************************************/
+
+ .btn-close
+{
+  
+  
+  color: white;
+  /*transition-property: width, height, background;*/
+  transition-duration: 2s,2s, 2s;
+  font-size: 20px;
+  text-align:center;
+  transition-timing-function:linear;
+  margin:300px;
+  margin-top:200px;
+  border-radius:50%;
+  transition-delay: -1s;
+
+}
+
+
+.btn-close:hover
+{
+  
+  
+  font-size: 30px;
+  text-align:center;
+  transform: rotate( 360deg );
+  border-radius:50%;
+
+}
+
+
+.collapse input
+{
+	padding: 2px;
+}
+
+
+
+
+/****************************************media*******************************************/
+
+
+
+
+
+@media only screen and (min-width: 768px) 
+{
+	.text2
+	{
+		display: none;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+	
+
+.text
+{
+	display: none;
+}
+
+.text3
+{
+	display: none;
+}
+
+/*.text4
+{
+	display: none;
+}*/
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+	.icons-left
+	{
+		font-size: 25px;
+
+	}
+
+	.icons-right
+	{
+		font-size: 25px;
+	}
+
+	.navbar-toggler
+	{
+		font-size: 30px;
+	}
+
+	
+
+
+}
+
+/*
+@media only screen and (max-width: 550px) {
+
+	.form1 input,select
+	{
+width: 300px;
+	}
+}*/
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) 
+{
+	.navbar-toggler
+{
+	float: left;
+	display: block;
+}
+
+.primary-menu ul li
+{
+	display: none;
+}
+
+.navbar-inner
+{
+	height: 80px;	
+}
+
+}

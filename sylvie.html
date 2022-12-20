@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gracy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/sylvie.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<style type="text/css">
+  .offcanvas
+  {
+    background-color: #f5f5f5;
+    border: 2px solid black; 
+  
+    box-sizing: border-box;
+  }
+  .offcanvas-header
+  {
+    display: flex;
+    justify-content:  center;
+    padding: 50px;
+    text-transform: uppercase;
+   
+  }
+
+  .btn-close
+  {
+     position: relative;
+    top: -40px;
+  }
+
+.offcanvas-body
+{
+  text-align: start;
+  padding: 20px;
+
+}
+
+.offcanvas-body img
+{
+  box-shadow: 1px 2px 10px 2px grey;
+  width: 300px;
+height: 300px;
+}
+
+.offcanvas-body h1,h2,h4
+{
+  text-transform: capitalize;
+}
+
+.offcanvas-body select,input
+{
+  width: 220px;
+  padding: 10px;
+  margin: 8px;
+  text-align:center;
+  background-color: #dcdcdc;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Forgot Password?</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" style=" position: relative; top:0px;"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <form>
+        <label for="email">Enter Your E-Mail</label><br>
+        <input type="email" name="email" style="width: 320px; padding: 10px; margin: 10px"><br>
+        <input type="submit" name="submit" value="Reset my password" style="width: 320px; padding: 10px; margin: 10px;">
+    </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-------------------------------------header------------------------------------------------>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="banner1">
+			<div class="navbar-inner">
+				<div class="row">
+				<div class="topheader">
+
+					<button class="navbar-toggler col-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></button>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                    <!-- <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    <ul>
+                    	<li><a href="engagement-sylvie.html">engagement</a></li><hr>
+                    	<li><a href="wedding-sylvie.html">wedding</a></li><hr>
+                    	<li><a href="jewellery-sylvie.html">jewellery</a></li><hr>
+                    	<li><a href="account-sylvie.html">account</a></li><hr>
+                    	<li><a href="about-sylvie.html">about us</a></li><hr>
+                    </ul>
+                    </div>
+                    </div>
+
+                    <!-- search icon -->
+
+					<div class="icons-left col-2">
+						<a class="btn" data-bs-toggle="collapse" href="#xyz" role="button" aria-expanded="false" aria-controls="xyz" style="color: white; font-size: 25px;"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+						<div class="collapse collapse-horizontal" id="xyz">
+                        <form ><input type="search" name="search" placeholder="SEARCH HERE" style="font-size: 15px; width: 150px;"></form>
+                        </div>
+					</div>
+
+		
+					<!-- logo  -->
+					<div class="logo-container col-6 center offset-lg-1" id="top"><a href="sylvie.html">GRACY</a></div>
+					
+					<!-- favourites and loacation -->
+					<div class="icons-right col-2 offset-lg-1">
+						<a href="wishlist-sylvie.html" style="color: white;"><i class="fa-solid fa-heart"></i></a>
+						<a href="store-locator.html" style="color: white;"><i class="fa-solid fa-location-pin"></i></a>
+					</div>
+				</div>	
+				</div>
+
+
+				<div class="row">
+					<div class="primary-menu">
+						<!-- div class="collapse navbar-collapse" id="navbar"> -->
+						<ul class="navbar-nav col-8 offset-2">
+							<li class="nav-item">
+								<a href="engagement-sylvie.html" class="nav-link">engagement</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="wedding-sylvie.html" class="nav-link">wedding</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="jewellery-sylvie.html" class="nav-link">jewellery</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="account-sylvie.html" class="nav-link">account</a>
+							</li>
+
+							<li class="nav-item">
+							    <a href="about-sylvie.html" class="nav-link">about us</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+
+				</nav>
+
+			</div>
+			<hr style="color: white">
+
+
+			<div class="col-3 text">The Essence Of Love
+				<button type="button" class="butn"><a href="engagement-sylvie.html">shop engagement</a></button>
+
+			</div>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="text2">The Essence Of Love
+		<button type="button" class="butn"><a href="engagement-sylvie.html">shop engagement</a></button>
+	</div>
+
+	</div>
+</div>	
+
+
+<!---------------------------- header end--------------------->
+
+<!-- <div class="container-fluid">
+	<div class="row">
+		<div class="vid col-12">
+			<video src="sylvie/video-1.mp4"></video>
+		</div>
+	</div>
+	
+</div>
+ -->
+
+<!------------------------------------ carousal ------------------------------------->
+
+
+<h2 class="center heading">signature styles</h2>
+
+<div class="container">
+            <div class="row blog">
+                <div class="col-md-12">
+                    <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <div class="row">
+
+
+
+
+
+<!-- img1 -->
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n1" role="button" aria-controls="n1"><img src="sylvie/ring1.webp"><h4>snow white</h4><h6>$2,130</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n1" aria-labelledby="n1Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="offcanvasExampleLabel">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring1.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after pro">
+<h1>snow white</h1>
+<h4>SDU:5632920</h4>
+<h2>$2,130</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+<!-- img2 -->
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n2" role="button" aria-controls="n2"><img src="sylvie/ring2.webp"><h4>cindrella</h4><h6>$3,120</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n2" aria-labelledby="n2Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n2">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring2.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>cindrella</h1>
+<h4>SDU:2654</h4>
+<h2>$3,120</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+<!-- img3 -->
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n3" role="button" aria-controls="n3"><img src="sylvie/ring3.webp"><h4>aurora</h4><h6>$1,220</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n3" aria-labelledby="n3Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n3">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring3.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>aurora</h1>
+<h4>SDU:36754</h4>
+<h2>$1,220</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+
+<!-- img4 -->
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n4" role="button" aria-controls="n4"><img src="sylvie/ring4.webp"><h4>ariel</h4><h6>$4,560</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n4" aria-labelledby="n4Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n4">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring4.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>ariel</h1>
+<h4>SDU:45098</h4>
+<h2>$4,560</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+                                   
+
+
+
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="row">
+
+
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n5" role="button" aria-controls="n5"><img src="sylvie/ring5.webp"><h4>belle</h4><h6>$3,240</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n5" aria-labelledby="n5Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n5">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring5.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>belle</h1>
+<h4>SDU:754</h4>
+<h2>$3,240</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+<!-- img6 -->
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n6" role="button" aria-controls="n6"><img src="sylvie/ring6.webp"><h4>jasmine</h4><h6>$1,110</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n6" aria-labelledby="n6Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n6">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring6.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>jasmine</h1>
+<h4>SDU:09870</h4>
+<h2>$1,110</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+<!-- img7 -->
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n7" role="button" aria-controls="n7"><img src="sylvie/ring7.webp"><h4>moana</h4><h6>$1,100</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n7" aria-labelledby="n3Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n7">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring7.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>moana</h1>
+<h4>SDU:20907</h4>
+<h2>$1,10</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+
+<!-- img8 -->
+
+<div class="col-lg-3 col-sm-6 products"><a class="btn" data-bs-toggle="offcanvas" href="#n8" role="button" aria-controls="n8"><img src="sylvie/ring8.webp"><h4>rapunzel</h4><h6>$2,222</h6></a></div>
+
+<div class="offcanvas offcanvas-start w-100" tabindex="-1" id="n8" aria-labelledby="n8Label"  >
+<div class="offcanvas-header">
+	<div class="row">
+<h1 class="offcanvas-title" id="n8">gracy</h1>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div></div>
+<div class="offcanvas-body">
+<div class="row">
+<div class="col-md-5 offset-md-1">
+<img src="sylvie/ring8.webp">
+</div>
+
+<div class="col-md-5 offset-md-1-after">
+<h1>rapunzal</h1>
+<h4>SDU:89530</h4>
+<h2>$2,222</h2>
+
+<form>
+	<select name="finger size" value="">
+    <option value="select your finger size">Select your finger size</option> 
+        <option value="3">3</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+       
+        </select><br>
+  <a href="store-locator.html"><input type="button" name="search" value="Search for Stores"></a><br>
+  <a href="contact-sylvie.html"><input type="button" name="email" value="Send us E-Mail"></a><br>
+  <a href="account-sylvie.html"><input type="button" name="buy" value="Buy It"></a>
+</form>
+<h4>product description</h4>
+<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>    
+</div>
+</div>
+
+
+
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+
+                        <!-- <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+	                        <span class="carousel-control-prev-icon"></span>
+                        </a>
+
+                        <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+	                        <span class="carousel-control-next-icon"></span>
+                        </a> -->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
+            </div>
+</div>
+<div class="center py-5">
+<button type="button" class="bttn"><a href="engagement-sylvie.html">view all</a></button>
+</div>      
+
+
+
+
+
+
+      <!----------------------------------- banner-2 ---------------------------------------->
+
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="banner2">
+			<div class="col-right center text3">
+				<h1>
+					Unique Engagement Rings
+					<br>
+					Designed by a women, for a women
+					<br>
+					<button type="button" class="butn"><a href="jewellery-sylvie.html" style="color: white;">shop timeless designs</a></button>
+				</h1>
+				
+            	</div>
+			
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="text2">
+			<h1>
+					Unique Engagement Rings
+					<br>
+					Designed by a women, for a women
+					<br>
+					<button type="button" class="butn"><a href="jewellery-sylvie.html">shop timeless designs</a></button>
+				</h1>
+	</div>
+
+	</div>
+</div>
+
+
+
+<!---------------------------------------banner3-------------------------->
+
+
+<!-- <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6 text4">
+			<h3>Create Your Own Engagement Ring<br><br>
+				<button type="button" class="bttn">Customize</button>
+
+			</h3>
+			
+			
+		</div>
+
+		<div class="col-md-5 ">
+			<img class="img-fluid" src="sylvie/banner-4.jpg">
+			
+		</div>
+	</div> -->
+	<!-- <div class="row">
+		<div class="text2">
+			<h3>Create Your Own Engagement Ring<br><br>
+				<button type="button" class="btn ">Customize</button>
+
+			</h3>
+	</div>
+
+	</div> -->
+<!-- </div> -->
+
+
+<!----------------------------------banner4---------------------------------->
+
+
+
+<div class="container-fluid bckgrnd">
+	<div class="row">
+		<div class="col-md-7">
+			<img src="sylvie/banner-3a.jpg" class="img-fluid">
+		</div>
+		<div class="col-md-5 text5">
+			<h2>
+				Gracy Wedding Bands
+			</h2>
+			<h4>where eternal love & limitless
+beauty come together</h4>
+<button type="button" class="bttn"><a href="wedding-sylvie.html">Shop Wedding</a></button>
+
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+
+<!------------------------------shop by category---------------------------------->
+
+
+
+<h2 class="center heading">shop by category</h2>
+
+<!-- <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-lg-2 col-sm-6 center"><img src="sylvie/sbc1.jpg" style="border:1px solid black; width: 200px;"><h4 class="center">neclaces</h4></div>
+		<div class="col-md-4 col-lg-2 col-sm-6 center"><img src="sylvie/sbc2.jpg" style="border:1px solid black; width: 200px;"><h4 class="center">neclaces</h4></div>
+		<div class="col-md-4 col-lg-2 col-sm-6 center"><img src="sylvie/sbc3.jpg" style="border:1px solid black; width: 200px;"><h4 class="center">neclaces</h4></div>
+		<div class="col-md-4 col-lg-2 col-sm-6 center"><img src="sylvie/sbc4.jpg" style="border:1px solid black; width: 200px;"><h4 class="center">neclaces</h4></div>
+		<div class="col-md-4 col-lg-2 col-sm-6 center"><img src="sylvie/sbc5.jpg" style="border:1px solid black; width: 200px;"><h4 class="center">neclaces</h4></div>
+		<div class="col-md-4 col-lg-2 col-sm-6 center"><img src="sylvie/sbc6.jpg" style="border:1px solid black; width: 200px;"><h4 class="center">neclaces</h4></div>
+
+	</div>
+	
+</div>
+ -->
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="card">
+        <a href="necklace-sylvie.html"><img src="sylvie/sbc1.jpg" class="card-img-top" alt="">
+        
+        <h5 class="card-title text-center">Necklaces</h5></a>
+      </div>
+    </div>
+
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="card">
+        <a href="earing-sylvie.html"><img src="sylvie/sbc2.jpg" class="card-img-top" alt="">
+        
+        <h5 class="card-title text-center">Earings</h5></a>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="card">
+        <a href="engagement-sylvie.html"><img src="sylvie/sbc3.jpg" class="card-img-top" alt="">
+        
+        <h5 class="card-title text-center">Rings</h5></a>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="card">
+       <a href="bracelet-sylvie.html"><img src="sylvie/sbc4.jpg" class="card-img-top" alt="">
+        
+        <h5 class="card-title text-center">Bracelets</h5></a>
+      </div>
+    </div>
+
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="card">
+        <a href="engagement-sylvie.html"><img src="sylvie/sbc5.jpg" class="card-img-top" alt="">
+        
+        <h5 class="card-title text-center">Engagement</h5></a>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6">
+      <div class="card">
+        <a href="wedding-sylvie.html"><img src="sylvie/sbc6.jpg" class="card-img-top" alt="">
+        
+        <h5 class="card-title text-center">Wedding</h5></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<!---------------------------------------top brand------------------------------------------->
+
+
+
+<div class="container-fluid text-center top-brand">
+
+		<h1>Top Performing Jewellery Brand</h1>
+		<h3>Five Consecutive Years<br><br>
+		2018,2019,2020,2021,2022</h3>
+		<button type="button" class="btnn"><a href="retailer-sylvie.html">partner with gracy</a></button>
+	
+</div>
+<br>
+
+
+
+<!------------------------------- get inspired with gracy ---------------------------------->
+
+<h2 class="center heading"><a href="blog-sylvie.html">get inspired with gracy</a></h2>
+
+<div class="container inspire">
+	<div class="row">
+		<div class="col-lg-3 col-sm-6">
+			<a href="blog-sylvie.html"><img src="sylvie/img1.jpg"></a>
+		</div>
+
+		<div class="col-lg-3 col-sm-6">
+			<a href="blog-sylvie.html"><img src="sylvie/img2.jpg"></a>
+		</div>
+
+		<div class="col-lg-3 col-sm-6">
+			<a href="blog-sylvie.html"><img src="sylvie/img7.jpg"></a>
+		</div>
+
+		<div class="col-lg-3 col-sm-6">
+			<a href="blog-sylvie.html"><img src="sylvie/img8.jpg"></a>
+		</div>
+
+		
+
+		
+
+		
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------------------------footer------------------------------------------>
+
+<div class="container-fluid main-footer">
+	<h1 class="center heading">gracy</h1>
+	<div class="row">
+	<div class="col-md-4 col-left">
+		<h2>Stay Posted</h2><br>
+		<p>Let’s be friends. Subscribe to our newsletter to receive updates on new launches, joining our family, and more!</p>
+<form>
+		<input type="email" name="email" placeholder="EMAIL ADDRESS"><br>
+		<select name="source of Income" value="I'M INTERESTED IN">
+		<option value="I'M INTERESTEDIN">I'M INTERESTED IN</option> 
+        <option value="ENGAGEMENT RINGS">ENGAGEMENT RINGS</option>
+        <option value="WEDDING AND ANNIVERSARY BANDS">WEDDING AND ANNIVERSARY BANDS</option>
+        <option value="FASHION JEWELLERY">FASHION JEWELLERY</option>
+        <option value="BECOMING RETAILER">BECOMING RETAILER</option>
+        <option value="MARKETING OPPORTUNITIES">MARKETING OPPORTUNITIES</option>
+        </select><br>
+        <input type="submit" name="submit" value="SUBMIT">
+</form>
+
+	</div>
+	
+
+	<div class="col-md-4 col-sm-6 col-left">
+		<h2>Contact Us</h2><br>
+		<ul>
+			<li><a href="retailer-sylvie.html">Become a retailer</a></li>
+			<li><a href="store-locator.html">Find a store</a></li>
+			<li><a href="wishlist-sylvie.html">Your wishlist</a></li>
+			<li><a href="contact-sylvie.html">Ask a question</a></li>
+		</ul>
+
+		
+	</div>
+
+
+	<div class="col-md-4 col-sm-6 col-left">
+		<h2>Explore</h2><br>
+		<ul>
+			<!-- our story -->
+			<li><a href="about-sylvie.html">Our story</a></li>
+
+			<!-- blog -->
+			<li><a href="blog-sylvie.html">Blog</a></li>
+
+			<!-- faq -->
+			<li><a href="faq-sylvie.html">FAQ</a></li>
+
+			<!-- retailer login -->
+			<li><a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasscrolling" aria-controls="offcanvasScrolling">Retailer login</a>
+
+				<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasscrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                    <!-- <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    		<form>
+
+			<input type="text" name="username" placeholder="USERNAME"><br>
+			<input type="text" name="password" placeholder="PASSWORD"><br>
+			<!-- <label for="remember-me">remember me</label><input type="radio" name="remember-me" id="remember-me"><br> -->
+			<div class="style">
+			<a href="sylvie.html"><input type="submit" name="submit" value="LOG IN"></a>
+		</div>
+		<label for="needaccount">Need an Account!</label>
+		<a href="retailer-sylvie.html"><input type="button" name="register" value="REGISTER HERE"></a>
+
+		</form>
+		<a href="" style="" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">Forgot Password?</a>
+                    </div>
+                    </div>
+
+			</li>
+		</ul>
+
+	</div>	
+	</div>
+
+
+
+<div class="row">
+	<h1 class="center heading">Let's Connect</h1>
+	<div class="social">
+		<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f icons"></i></a>
+		<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram icons"></i></a>
+		<a href="https://www.youtube.com/"><i class="fa-brands fa-youtube icons"></i></a>
+		<a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in icons"></i></a>
+		<a href="https://twitter.com/?lang=en-in"><i class="fa-brands fa-twitter icons"></i></a>
+		<a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest-p icons"></i></a>
+	</div>
+	<div ><a href="#top" style="color: black; font-size: 40px; float: right;"><i class="fa-solid fa-arrow-up-from-bracket"></i></a></div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
